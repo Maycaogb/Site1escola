@@ -70,7 +70,11 @@ footer p {
 }
 
 nav a:hover {
-    color:red;
+    display: flex;
+    font-size: x-large;
+    background: linear-gradient(to right, #ff4e50, #d72638, #8b0000);
+    -webkit-background-clip: RESUMO, APLICAÇÕES SUSTENTAVEIS, DESAFIOS;
+  -webkit-text-fill-color: transparent;
 }
 
 main p {
