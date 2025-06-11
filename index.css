@@ -11,7 +11,7 @@ ul {
     list-style-type: none;
     align-items: center
     padding 16px;
-    font-size: large;
+    font-size: larger;
 }
 
 a {
@@ -20,14 +20,16 @@ a {
 }
 
 header img {
-    width: 150px;
-    height: 150px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
     border: 5px solid whitesmoke;
 }
     
 .center {
-    text-align: center;
+   display: flex;
+   justify-content: center;
+    size: 160px;
 }
 
 h1 {
@@ -74,4 +76,4 @@ nav a:hover {
 main p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
-}
+}   
