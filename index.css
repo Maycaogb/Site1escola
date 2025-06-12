@@ -77,18 +77,24 @@ nav a:hover {
   -webkit-text-fill-color: transparent;
 }
 
+
 main p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
 }   
 
-.menu {
+.menu a:hover {
   display: flex;
+  font-size: x-large;
   justify-content: space-between;
-  background: #333;
+  background: linear-gradient(to right, #ff4e50, #d72638, #8b0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: white;
   padding: 1rem;
 }
+
+
 
 /* --- Versão padrão (desktop) --- */
 .menu-item {
