@@ -73,7 +73,7 @@ nav a:hover {
     display: flex;
     font-size: x-large;
     background: linear-gradient(to right, #ff4e50, #d72638, #8b0000);
-    -webkit-background-clip: RESUMO, APLICAÇÕES SUSTENTAVEIS, DESAFIOS;
+    -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
