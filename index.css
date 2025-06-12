@@ -102,11 +102,14 @@ main p {
     align-items: center;
   }
 
-  .menu-item {
+   .menu-item {
     margin: 0.5rem 0;
+    text-align: center;
+    width: 100%;          /* cada item ocupa a linha toda */
+    white-space: normal;  /* permite quebra de linha */
   }
 
   body {
-    background-color: #222; /* muda o fundo no celular */
+    background-color: black;
   }
 }
